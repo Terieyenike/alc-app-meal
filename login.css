@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+  --main-font-color: #f2b632;
+  --main-white: #fff;
+  --main-font-dark-grey: #4d4d4d;
+  --main-footer-bg-color: #141414;
+  --main-font-family: "Cheddar Jack", cursive;
+  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  --main-background-register: #FF7700;
+  --main-background-hover: #A30000;
+}
+
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url("https://images.pexels.com/photos/169391/pexels-photo-169391.jpeg");
+	background-size: cover;
+	position: relative;
+}
+
+.mainclass{
+	width: 500px;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0.9
+}
+
+.formcenter{
+	width: 100%;
+	height: auto;
+	background-color: var(--main-white);
+	padding: 0 50px;
+	text-align: center;
+}
+
+.formcenter h2{
+	font-size: 2.5rem;
+	display: block;
+	color: var(--main-background-register);
+}
+
+.formcenter form label{
+	display: block;
+	margin-top: 15px;
+	font-size: 1.5rem;
+	color: var(--main-font-dark-grey);
+}
+
+.formcenter form input{
+	width: 100%;
+	padding: 10px 10px;
+	border: none;
+	text-align: center;
+	border-bottom: 2px solid var(--main-font-dark-grey)
+}
+
+.logintext{
+	display: block;
+	font-size: 1.5rem;
+	background-color: var(--main-background-register);
+	color: var(--main-white);
+}
+
+.belowforms{
+	line-height: 1.5;
+	text-align: center;
+}
+.belowforms a{
+	color: var(--main-background-register);
+	font-weight: 300;
+	text-decoration: none;
+	margin-bottom: 20px;
+	margin-top: 20px
+}
+
+.belowforms h3{
+	margin-top: 20px
+}
+
+input[type = "email"]:focus,
+input[type = "password"]:focus{
+	outline: none;
+	border-color: var(--main-background-hover);
+}
+
+/* Reusable codes */
+.btn{
+	display: inline-block;
+	transition: all 650ms;
+	border-radius: 3px;
+}
+
