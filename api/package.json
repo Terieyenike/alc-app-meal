@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/terieyenike/alc-app-meal/issues"
   },
-  "homepage": "https://github.com/terieyenike/alc-app-meal#readme"
+  "homepage": "https://github.com/terieyenike/alc-app-meal#readme",
+  "dependencies": {
+    "eslint-plugin-import": "^2.16.0"
+  }
 }
