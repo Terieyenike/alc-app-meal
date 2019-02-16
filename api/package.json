@@ -1,0 +1,33 @@
+{
+  "name": "meal-booking-api",
+  "version": "1.0.0",
+  "description": "a simple meal booking api - alcwithforloop workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terieyenike/alc-app-meal.git"
+  },
+  "keywords": [
+    "book",
+    "a",
+    "meal",
+    "food",
+    "meal",
+    "chow",
+    "caterers",
+    "meet",
+    "with",
+    "real",
+    "customers",
+    "order"
+  ],
+  "author": "Teri Eyenike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terieyenike/alc-app-meal/issues"
+  },
+  "homepage": "https://github.com/terieyenike/alc-app-meal#readme"
+}
