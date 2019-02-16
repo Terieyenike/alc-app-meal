@@ -31,6 +31,7 @@
   },
   "homepage": "https://github.com/terieyenike/alc-app-meal#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "eslint-plugin-import": "^2.16.0"
   }
 }
