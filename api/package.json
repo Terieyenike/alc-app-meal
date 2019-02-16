@@ -33,6 +33,7 @@
   "dependencies": {
     "eslint-plugin-import": "^2.16.0"
   }
+feature/create-meal-service
   "homepage": "https://github.com/terieyenike/alc-app-meal#readme",
   "dependencies": {
     "@babel/core": "^7.3.3",
@@ -46,4 +47,5 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "nodemon": "^1.18.10"
   }
+master
 }
