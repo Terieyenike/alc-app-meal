@@ -29,14 +29,10 @@
   "bugs": {
     "url": "https://github.com/terieyenike/alc-app-meal/issues"
   },
-<<<<<<< HEAD
   "homepage": "https://github.com/terieyenike/alc-app-meal#readme",
   "dependencies": {
     "eslint-plugin-import": "^2.16.0"
   }
-||||||| merged common ancestors
-  "homepage": "https://github.com/terieyenike/alc-app-meal#readme"
-=======
   "homepage": "https://github.com/terieyenike/alc-app-meal#readme",
   "dependencies": {
     "@babel/core": "^7.3.3",
@@ -50,5 +46,4 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "nodemon": "^1.18.10"
   }
->>>>>>> 4edd3e5a0fc576cf1945c6c03867596b7985c46f
 }
