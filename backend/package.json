@@ -1,0 +1,31 @@
+{
+  "name": "mealbookingapi",
+  "version": "1.0.0",
+  "description": "a simple meal booking api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terieyenike/alc-app-meal.git"
+  },
+  "keywords": [
+    "meal",
+    "food",
+    "chow",
+    "nigerian",
+    "foods",
+    "continental",
+    "dishes",
+    "restaurants",
+    "caterers",
+    "customers"
+  ],
+  "author": "Teri Eyenike <teyenike1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terieyenike/alc-app-meal/issues"
+  },
+  "homepage": "https://github.com/terieyenike/alc-app-meal#readme"
+}
