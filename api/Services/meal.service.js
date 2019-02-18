@@ -9,6 +9,7 @@ const MealService = {
         newMeal.name = meal.name;
         newMeal.size = meal.size;
         newMeal.price = meal.price;
+        return newMeal;
     });
     return validMeals;
   },
@@ -17,14 +18,12 @@ const MealService = {
     const mealLength = dummyData.meals.length;
     const lastId = dummyData.meals[mealLength - 1].id;
     const newId = lastId + 1;
-    meal.id =newId
-    const newMeal = new Meal();
-    newMeal.id = meal.id;
+    meal.id = newId;
     dummyData.meals.push(meal);
     return meal;
   },
   getAMeal(id){
-    const meal = dummyData.meals.find(meal => meal.id = id);
+    const meal = dummyData.meals.find(meal => meal.id == id);
     return meal || {};
   }
 };
