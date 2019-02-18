@@ -30,7 +30,7 @@ const MealService = {
     return res.json({
       status: 'success',
       data: foundMeal
-    }).status(201);;
+    }).status(200);;
   }
 };
 
