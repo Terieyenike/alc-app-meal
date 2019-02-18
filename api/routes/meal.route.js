@@ -10,4 +10,4 @@ router.get('/', MealController.fetchAllMeals);
 router.post('/', MealController.addAMeal);
 router.get('/:id', MealController.getSingleMeal);
 
-export default router
+export default router;
