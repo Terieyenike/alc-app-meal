@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/terieyenike/alc-app-meal.svg?branch=master)](https://travis-ci.com/terieyenike/alc-app-meal)
 # Fitinth meal booking app
 
 - A project created during this workshop, duly organized by ALCwithForloop
