@@ -1,35 +1,28 @@
 {
-  "name": "meal-booking-api",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "a simple meal booking app",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/terieyenike/alc-app-meal.git"
-  },
-  "keywords": [
-    "meal",
-    "food",
-    "chow"
-  ],
-  "author": "Teri Eyenike <teyenike1@gmail.com>",
+  "keywords": [],
+  "author": "Teri Eyenike",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/terieyenike/alc-app-meal/issues"
-  },
-  "homepage": "https://github.com/terieyenike/alc-app-meal#readme",
   "dependencies": {
     "@babel/core": "^7.3.3",
     "@babel/node": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
     "babel-cli": "^6.26.0",
-    "express": "^4.16.4"
+    "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "eslint-plugin-import": "^2.16.0",
+    "express": "^4.16.4",
+    "mocha": "^6.0.1"
   },
   "devDependencies": {
-    "eslint": "^5.14.0",
+    "eslint": "^5.14.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "nodemon": "^1.18.10"
   }

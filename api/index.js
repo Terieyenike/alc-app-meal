@@ -1,23 +1,25 @@
-import express from 'express';
+import express from 'express'
 import bodyParser from 'body-parser'
 
+// import meal routes from route
+import mealRoutes from './routes/meal.route'
+import menuRoutes from './routes/menu.route'
+import orderRoutes from './routes/order.route'
 
-// routes
-import mealRoutes from './routes/meal.route';
+const app = express()
+const PORT = process.env.PORT || 8001
 
-const app = express();
-const PORT = 8001;
-
-
-app.use(bodyParser.json());
+app.use(bodyParser.json())
 
 app.get('/', (req, res) => {
-  return res.send('the API is working!');
-});
+  return res.send('the API is working perfectly, just do it!')
+})
 
-// handle mealroutes
-app.use('/api/v1/meals', mealRoutes);
+app.use('/api/v1/meals', mealRoutes)
+app.use('/api/v1/menus', menuRoutes)
+app.use('/api/v1/order', orderRoutes)
 
 app.listen(PORT, () => {
-  console.log(`Server is running on PORT ${PORT}`);
+  // eslint-disable-next-line no-console
+  console.log(`Server is running on PORT ${PORT}, okay`)
 })
