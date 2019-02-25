@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.com/terieyenike/alc-app-meal.svg?branch=master)](https://travis-ci.com/terieyenike/alc-app-meal)
+
 # Fitinth meal booking app
 
 - A project created during this workshop, duly organized by ALCwithForloop
@@ -19,3 +20,6 @@ The application is developed with NodeJs using ExpressJs for routing and Postgre
 ## Link to the actual project
 
 [Meal Booking App](https://terieyenike.github.io/alc-app-meal/)
+
+[x] # Heroku app deployment
+[Heroku build:::Teri Eyenike](https://guarded-mountain-53970.herokuapp.com/)
