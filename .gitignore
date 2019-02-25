@@ -1,6 +1,5 @@
-node_modules
 .env
 .nyc_output
 lcov.info
 .coveralls.yml
-**/node_modules
+/api/node_modules
