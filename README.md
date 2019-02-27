@@ -23,4 +23,4 @@ The application is developed with NodeJs using ExpressJs for routing and Postgre
 
 ## Public URL to Heroku
 
-[Heroku:::Teri Eyenike](https://guarded-mountain-53970.herokuapp.com/)
+[Heroku:::Teri Eyenike](https://meal-bookingapp-teri.herokuapp.com/)
