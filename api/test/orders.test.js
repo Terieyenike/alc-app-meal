@@ -9,7 +9,7 @@ describe('/Get order', () => {
   it('get orders', done => {
     chai
       .request(index)
-      .get('/api/v1/orders')
+      .get('/api/v1/meals')
       .end((err, res) => {
         res.should.have.property('status', 200)
         res.body.should.be.a('object')
