@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.com/terieyenike/alc-app-meal.svg?branch=master)](https://travis-ci.com/terieyenike/alc-app-meal)
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/d810b4ab9fae58e80737/maintainability)](https://codeclimate.com/github/terieyenike/alc-app-meal/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/d810b4ab9fae58e80737/test_coverage)](https://codeclimate.com/github/terieyenike/alc-app-meal/test_coverage)
 # Fitinth meal booking app
 
 - A project created during this workshop, duly organized by ALCwithForloop
