@@ -1,6 +1,0 @@
-.env
-.nyc_output
-lcov.info
-.coveralls.yml
-node_modules
-.travis.yml
