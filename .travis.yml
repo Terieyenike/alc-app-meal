@@ -4,13 +4,11 @@ node_js:
 cache:
 directories:
   - 'node_modules'
-before_install: cd ./api
+env:
+  global:
+    - CODECLIMATE_REPO_TOKEN=d58ca6085dce614b1d96579208063d53a987fe46b061887b13a6c4317155c480
 install:
   - npm install
 script:
-  - npm run test
-after_success:
-— npm run coverage
-env:
-global:
-- CODECLIMATE_REPO_TOKEN=d58ca6085dce614b1d96579208063d53a987fe46b061887b13a6c4317155c480
+  - npm test
+after_success: npm run coverage

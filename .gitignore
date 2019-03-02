@@ -2,5 +2,5 @@
 .nyc_output
 lcov.info
 .coveralls.yml
-node_modules
+/node_modules
 .travis.yml
